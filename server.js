@@ -1,5 +1,5 @@
 require('dotenv').config()
-const epress=require('express')
+const express=require('express')
 const server=express()
 
 server.listen(process.env.PORT)
