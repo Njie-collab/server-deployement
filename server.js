@@ -1,6 +1,6 @@
+require('dotenv').config()
 const epress=require('express')
 const server=express()
-require('dotenv').config()
 
 server.listen(process.env.PORT)
 
